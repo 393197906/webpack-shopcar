@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var path = require("path");
 
 module.exports = {
     entry: __dirname + '/app/js/main.js',
@@ -18,11 +19,9 @@ module.exports = {
                 loaders: "style-loader!css-loader!less-loader"
             },
             {
-                test: path.join(__dirname, 'es6'),
-                loader: 'babel-loader',
-                query: {
-                    presets: ['es2015']
-                }
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader'
             }
         ]
     },
