@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<body>
+<div class="wrap clear">
+    <!--标题-->
+    <div class="clear">
+        <div class="w10  fl lheight-center">
+            <span class="check"><input type="checkbox" /></span>全选
+        </div>
+        <div class="w50 fl lheight-center">
+            商品信息
+        </div>
+        <div class="w10 fl lheight-center">
+            单价
+        </div>
+        <div class="w10 fl lheight-center">
+            数量
+        </div>
+        <div class="w10 fl lheight-center">
+            金额
+        </div>
+        <div class="w10 fl lheight-center">
+            操作
+        </div>
+    </div>
+    <!--格子-->
+    <div class="clear mg-top">
+        <div class="pd-top-bottom lheight-center"><span class="check"><input type="checkbox" /></span>店铺：牛客旗舰店</div>
+        <div class="border">
+            <div>
+                <div class="w10  h10 fl pd">
+                    <span class="check"><input type="checkbox"></span>
+                    <img class="img"
+                         src="https://img.alicdn.com/bao/uploaded/i2/TB17mt1NpXXXXXSXVXXXXXXXXXX_!!0-item_pic.jpg_80x80.jpg"
+                         alt="">
+                </div>
+                <div class="w50  h10 fl pd">
+                    <p>NIUKE 现代海力士DDR3 4G 1600 </p>
+                    <p>笔记本内存条 兼容1333 1066 8G</p>
+                    <p class="mg-bottom"><span>天猫家装节</span></p>
+
+                    <p>
+                        <img src="//assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="">
+                        <img src="//img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt="七天退换">
+                        <img src="//img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt="如实描述">
+                    </p>
+                </div>
+                <div class="w10  h10 fl pd">
+                    <p><s>￥180.00</s></p>
+
+                    <p><strong>￥145.00</strong></p>
+
+                    <p>
+                        <div class="btn-model">
+                        卖家促销<span><</span>
+                        </div>
+                    </p>
+                </div>
+                <div class="w10  h10 fl pd">
+                    <input type="number"  style="width:50px;" />
+                </div>
+                <div class="w10  h10 fl pd">
+                    <p><strong>￥145.00</strong></p>
+                </div>
+                <div class="w10  h10 fl pd">
+                    <p class="mg-bottom">移入收藏夹 </p>
+                    <p class="mg-bottom">删除</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!--结算-->
+    <div class="mg-top clear bg-grey lheight-center">
+        <div class="fl w10  pd-top-bottom-left "><span class="check"><input type="checkbox" /></span>全选</div>
+        <div class="fl w50  pd-top-bottom">
+            <span class="mg-right">删除</span>
+            <span class="mg-right">清除失效宝贝</span>
+            <span class="mg-right">移入收藏夹</span>
+            <span class="mg-right">分享</span>
+        </div>
+        <div class="fl w10  pd-top-bottom">已选商品<span>0</span>件</div>
+        <div class="fl w20  pd-top-bottom">合计（不含运费）: <span>0.00</span></div>
+        <div class="fl w10">
+            <button class="btn btn-grey jiesuan">结算</button>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
